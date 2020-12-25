@@ -33,6 +33,10 @@ export default class Blank extends React.Component {
         style={styles.Button_2}
         onPress={() => alert("Pressed!")}
       />
+      <View style={styles.View_3}>
+        <View />
+        <View />
+      </View>
     </View>
   )
 }
@@ -40,13 +44,28 @@ export default class Blank extends React.Component {
 const styles = StyleSheet.create({
   View_1: {},
   Button_2: {
-    height: 25,
-    marginTop: 5,
+    height: 10,
     marginBottom: 5,
     borderWidth: 3,
     borderLeftWidth: 3,
     borderRightWidth: 3,
     borderTopWidth: 3,
     borderBottomWidth: 3
-  }
+  },
+  View_3: {
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    flexDirection: "column",
+    flexWrap: "wrap",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    alignContent: "stretch",
+    backgroundSize: "auto"
+  },
+  View_4: {},
+  View_5: {}
 })
