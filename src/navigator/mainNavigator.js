@@ -8,7 +8,6 @@ import SideMenu from './sideMenu';
 import CopyOfCopyOfCopyOfCopyOfBlankScreen116319Navigator from '../features/CopyOfCopyOfCopyOfCopyOfBlankScreen116319/navigator';
 import CopyOfCopyOfCopyOfBlankScreen116318Navigator from '../features/CopyOfCopyOfCopyOfBlankScreen116318/navigator';
 import CopyOfCopyOfBlankScreen116317Navigator from '../features/CopyOfCopyOfBlankScreen116317/navigator';
-import CopyOfBlankScreen116316Navigator from '../features/CopyOfBlankScreen116316/navigator';
 import BlankScreen116315Navigator from '../features/BlankScreen116315/navigator';
 import BlankScreen416313Navigator from '../features/BlankScreen416313/navigator';
 import BlankScreen016292Navigator from '../features/BlankScreen016292/navigator';
@@ -59,7 +58,6 @@ const AppNavigator = {
 CopyOfCopyOfCopyOfCopyOfBlankScreen116319: { screen: CopyOfCopyOfCopyOfCopyOfBlankScreen116319Navigator },
 CopyOfCopyOfCopyOfBlankScreen116318: { screen: CopyOfCopyOfCopyOfBlankScreen116318Navigator },
 CopyOfCopyOfBlankScreen116317: { screen: CopyOfCopyOfBlankScreen116317Navigator },
-CopyOfBlankScreen116316: { screen: CopyOfBlankScreen116316Navigator },
 BlankScreen116315: { screen: BlankScreen116315Navigator },
 BlankScreen416313: { screen: BlankScreen416313Navigator },
 BlankScreen016292: { screen: BlankScreen016292Navigator },
