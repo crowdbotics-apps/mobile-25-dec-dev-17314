@@ -46,7 +46,16 @@ export default class Blank extends React.Component {
 
 const styles = StyleSheet.create({
   View_1: {},
-  Button_2: { height: 25, marginTop: 20, marginBottom: 3 },
+  Button_2: {
+    height: 25,
+    marginTop: 20,
+    marginBottom: 3,
+    borderWidth: 3,
+    borderLeftWidth: 3,
+    borderRightWidth: 3,
+    borderTopWidth: 3,
+    borderBottomWidth: 3
+  },
   Text_3: {},
   Slider_4: { width: 100 }
 })
