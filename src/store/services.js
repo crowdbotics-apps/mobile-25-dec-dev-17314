@@ -1,4 +1,17 @@
 import axios from "axios"
+import {
+  NEW_CONNECTOR_HGHGH_USERNAME,
+  NEW_CONNECTOR_HGHGH_PASSWORD
+} from "react-native-dotenv"
+const newConnectorhghgh = axios.create({
+  baseURL:
+    "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/17314/storyboard/16286/",
+  auth: {
+    username: NEW_CONNECTOR_HGHGH_USERNAME,
+    password: NEW_CONNECTOR_HGHGH_PASSWORD
+  },
+  headers: { Accept: "application/json", "Content-Type": "application/json" }
+})
 const mobiledecAPI = axios.create({
   baseURL: "https://mobile-25-dec-dev-17314.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
