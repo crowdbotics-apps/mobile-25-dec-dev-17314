@@ -11,7 +11,6 @@ import CopyOfCopyOfBlankScreen016242Navigator from '../features/CopyOfCopyOfBlan
 import CopyOfCopyOfCopyOfBlankScreen016241Navigator from '../features/CopyOfCopyOfCopyOfBlankScreen016241/navigator';
 import BlankScreen016240Navigator from '../features/BlankScreen016240/navigator';
 import CopyOfBlankScreen016239Navigator from '../features/CopyOfBlankScreen016239/navigator';
-import CopyOfCopyOfBlankScreen016238Navigator from '../features/CopyOfCopyOfBlankScreen016238/navigator';
 import CopyOfCopyOfCopyOfBlankScreen016237Navigator from '../features/CopyOfCopyOfCopyOfBlankScreen016237/navigator';
 import CopyOfCopyOfCopyOfBlankScreen016236Navigator from '../features/CopyOfCopyOfCopyOfBlankScreen016236/navigator';
 import CopyOfCopyOfBlankScreen016235Navigator from '../features/CopyOfCopyOfBlankScreen016235/navigator';
@@ -41,7 +40,6 @@ CopyOfCopyOfBlankScreen016242: { screen: CopyOfCopyOfBlankScreen016242Navigator 
 CopyOfCopyOfCopyOfBlankScreen016241: { screen: CopyOfCopyOfCopyOfBlankScreen016241Navigator },
 BlankScreen016240: { screen: BlankScreen016240Navigator },
 CopyOfBlankScreen016239: { screen: CopyOfBlankScreen016239Navigator },
-CopyOfCopyOfBlankScreen016238: { screen: CopyOfCopyOfBlankScreen016238Navigator },
 CopyOfCopyOfCopyOfBlankScreen016237: { screen: CopyOfCopyOfCopyOfBlankScreen016237Navigator },
 CopyOfCopyOfCopyOfBlankScreen016236: { screen: CopyOfCopyOfCopyOfBlankScreen016236Navigator },
 CopyOfCopyOfBlankScreen016235: { screen: CopyOfCopyOfBlankScreen016235Navigator },
