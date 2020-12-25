@@ -47,5 +47,5 @@ export default class Blank extends React.Component {
 const styles = StyleSheet.create({
   View_1: {},
   CheckBox_2: {},
-  Image_3: { width: 100 }
+  Image_3: { width: 100, height: 100 }
 })
