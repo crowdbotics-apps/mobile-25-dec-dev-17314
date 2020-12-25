@@ -33,8 +33,19 @@ export default class Blank extends React.Component {
         checked={this.state.CheckBox_2}
         onPress={nextChecked => this.setState({ CheckBox_2: nextChecked })}
       />
+      <Image
+        source={{
+          uri:
+            "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/2_Q1v8Fiy.jpg"
+        }}
+        style={styles.Image_3}
+      />
     </View>
   )
 }
 
-const styles = StyleSheet.create({ View_1: {}, CheckBox_2: {} })
+const styles = StyleSheet.create({
+  View_1: {},
+  CheckBox_2: {},
+  Image_3: { width: 100 }
+})
