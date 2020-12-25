@@ -55,6 +55,75 @@ function* api_v1_customtext_partial_updateWatcher() {
     api_v1_customtext_partial_updateWorker
   )
 }
+function* api_v1_ghgjhg_listWorker(action) {
+  try {
+    const result = yield call(apiService.api_v1_ghgjhg_list, action)
+    yield put(actions.api_v1_ghgjhg_listSucceeded(result, action))
+  } catch (err) {
+    yield put(actions.api_v1_ghgjhg_listFailed(err, action))
+  }
+}
+function* api_v1_ghgjhg_listWatcher() {
+  yield takeEvery(types.API_V1_GHGJHG_LIST, api_v1_ghgjhg_listWorker)
+}
+function* api_v1_ghgjhg_createWorker(action) {
+  try {
+    const result = yield call(apiService.api_v1_ghgjhg_create, action)
+    yield put(actions.api_v1_ghgjhg_createSucceeded(result, action))
+  } catch (err) {
+    yield put(actions.api_v1_ghgjhg_createFailed(err, action))
+  }
+}
+function* api_v1_ghgjhg_createWatcher() {
+  yield takeEvery(types.API_V1_GHGJHG_CREATE, api_v1_ghgjhg_createWorker)
+}
+function* api_v1_ghgjhg_readWorker(action) {
+  try {
+    const result = yield call(apiService.api_v1_ghgjhg_read, action)
+    yield put(actions.api_v1_ghgjhg_readSucceeded(result, action))
+  } catch (err) {
+    yield put(actions.api_v1_ghgjhg_readFailed(err, action))
+  }
+}
+function* api_v1_ghgjhg_readWatcher() {
+  yield takeEvery(types.API_V1_GHGJHG_READ, api_v1_ghgjhg_readWorker)
+}
+function* api_v1_ghgjhg_updateWorker(action) {
+  try {
+    const result = yield call(apiService.api_v1_ghgjhg_update, action)
+    yield put(actions.api_v1_ghgjhg_updateSucceeded(result, action))
+  } catch (err) {
+    yield put(actions.api_v1_ghgjhg_updateFailed(err, action))
+  }
+}
+function* api_v1_ghgjhg_updateWatcher() {
+  yield takeEvery(types.API_V1_GHGJHG_UPDATE, api_v1_ghgjhg_updateWorker)
+}
+function* api_v1_ghgjhg_partial_updateWorker(action) {
+  try {
+    const result = yield call(apiService.api_v1_ghgjhg_partial_update, action)
+    yield put(actions.api_v1_ghgjhg_partial_updateSucceeded(result, action))
+  } catch (err) {
+    yield put(actions.api_v1_ghgjhg_partial_updateFailed(err, action))
+  }
+}
+function* api_v1_ghgjhg_partial_updateWatcher() {
+  yield takeEvery(
+    types.API_V1_GHGJHG_PARTIAL_UPDATE,
+    api_v1_ghgjhg_partial_updateWorker
+  )
+}
+function* api_v1_ghgjhg_deleteWorker(action) {
+  try {
+    const result = yield call(apiService.api_v1_ghgjhg_delete, action)
+    yield put(actions.api_v1_ghgjhg_deleteSucceeded(result, action))
+  } catch (err) {
+    yield put(actions.api_v1_ghgjhg_deleteFailed(err, action))
+  }
+}
+function* api_v1_ghgjhg_deleteWatcher() {
+  yield takeEvery(types.API_V1_GHGJHG_DELETE, api_v1_ghgjhg_deleteWorker)
+}
 function* api_v1_homepage_listWorker(action) {
   try {
     const result = yield call(apiService.api_v1_homepage_list, action)
@@ -292,6 +361,12 @@ export default function* rootSaga() {
     api_v1_customtext_readWatcher,
     api_v1_customtext_updateWatcher,
     api_v1_customtext_partial_updateWatcher,
+    api_v1_ghgjhg_listWatcher,
+    api_v1_ghgjhg_createWatcher,
+    api_v1_ghgjhg_readWatcher,
+    api_v1_ghgjhg_updateWatcher,
+    api_v1_ghgjhg_partial_updateWatcher,
+    api_v1_ghgjhg_deleteWatcher,
     api_v1_homepage_listWatcher,
     api_v1_homepage_readWatcher,
     api_v1_homepage_updateWatcher,

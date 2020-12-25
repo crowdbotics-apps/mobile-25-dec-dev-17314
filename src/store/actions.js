@@ -356,3 +356,78 @@ export const rest_auth_user_partial_updateFailed = (response, starter) => ({
   response,
   starter
 })
+export const api_v1_ghgjhg_list = () => ({ type: types.API_V1_GHGJHG_LIST })
+export const api_v1_ghgjhg_listSucceeded = (response, starter) => ({
+  type: types.API_V1_GHGJHG_LIST_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_listFailed = (response, starter) => ({
+  type: types.API_V1_GHGJHG_LIST_FAILED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_create = data => ({
+  type: types.API_V1_GHGJHG_CREATE,
+  data
+})
+export const api_v1_ghgjhg_createSucceeded = (response, starter) => ({
+  type: types.API_V1_GHGJHG_CREATE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_createFailed = (response, starter) => ({
+  type: types.API_V1_GHGJHG_CREATE_FAILED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_read = () => ({ type: types.API_V1_GHGJHG_READ })
+export const api_v1_ghgjhg_readSucceeded = (response, starter) => ({
+  type: types.API_V1_GHGJHG_READ_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_readFailed = (response, starter) => ({
+  type: types.API_V1_GHGJHG_READ_FAILED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_update = data => ({
+  type: types.API_V1_GHGJHG_UPDATE,
+  data
+})
+export const api_v1_ghgjhg_updateSucceeded = (response, starter) => ({
+  type: types.API_V1_GHGJHG_UPDATE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_updateFailed = (response, starter) => ({
+  type: types.API_V1_GHGJHG_UPDATE_FAILED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_partial_update = data => ({
+  type: types.API_V1_GHGJHG_PARTIAL_UPDATE,
+  data
+})
+export const api_v1_ghgjhg_partial_updateSucceeded = (response, starter) => ({
+  type: types.API_V1_GHGJHG_PARTIAL_UPDATE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_partial_updateFailed = (response, starter) => ({
+  type: types.API_V1_GHGJHG_PARTIAL_UPDATE_FAILED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_delete = () => ({ type: types.API_V1_GHGJHG_DELETE })
+export const api_v1_ghgjhg_deleteSucceeded = (response, starter) => ({
+  type: types.API_V1_GHGJHG_DELETE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_ghgjhg_deleteFailed = (response, starter) => ({
+  type: types.API_V1_GHGJHG_DELETE_FAILED,
+  response,
+  starter
+})

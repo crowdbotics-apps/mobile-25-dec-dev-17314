@@ -32,6 +32,28 @@ function api_v1_customtext_partial_update(action) {
     data: action.data
   })
 }
+function api_v1_ghgjhg_list(action) {
+  return mobiledecAPI.get(`/api/v1/ghgjhg/`)
+}
+function api_v1_ghgjhg_create(action) {
+  return mobiledecAPI.post(`/api/v1/ghgjhg/`, null, { data: action.data })
+}
+function api_v1_ghgjhg_read(action) {
+  return mobiledecAPI.get(`/api/v1/ghgjhg/${action.id}/`)
+}
+function api_v1_ghgjhg_update(action) {
+  return mobiledecAPI.put(`/api/v1/ghgjhg/${action.id}/`, null, {
+    data: action.data
+  })
+}
+function api_v1_ghgjhg_partial_update(action) {
+  return mobiledecAPI.patch(`/api/v1/ghgjhg/${action.id}/`, null, {
+    data: action.data
+  })
+}
+function api_v1_ghgjhg_delete(action) {
+  return mobiledecAPI.delete(`/api/v1/ghgjhg/${action.id}/`)
+}
 function api_v1_homepage_list(action) {
   return mobiledecAPI.get(`/api/v1/homepage/`)
 }
@@ -102,6 +124,12 @@ export const apiService = {
   api_v1_customtext_read,
   api_v1_customtext_update,
   api_v1_customtext_partial_update,
+  api_v1_ghgjhg_list,
+  api_v1_ghgjhg_create,
+  api_v1_ghgjhg_read,
+  api_v1_ghgjhg_update,
+  api_v1_ghgjhg_partial_update,
+  api_v1_ghgjhg_delete,
   api_v1_homepage_list,
   api_v1_homepage_read,
   api_v1_homepage_update,
