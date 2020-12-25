@@ -33,13 +33,6 @@ export default class Blank extends React.Component {
         style={styles.Button_2}
         onPress={() => alert("Pressed!")}
       />
-      <Text>Sample text content</Text>
-      <Slider
-        value={50}
-        minimumValue={0}
-        maximumValue={100}
-        style={styles.Slider_4}
-      />
     </View>
   )
 }
@@ -48,14 +41,12 @@ const styles = StyleSheet.create({
   View_1: {},
   Button_2: {
     height: 25,
-    marginTop: 20,
-    marginBottom: 3,
+    marginTop: 5,
+    marginBottom: 5,
     borderWidth: 3,
     borderLeftWidth: 3,
     borderRightWidth: 3,
     borderTopWidth: 3,
     borderBottomWidth: 3
-  },
-  Text_3: {},
-  Slider_4: { width: 100 }
+  }
 })
