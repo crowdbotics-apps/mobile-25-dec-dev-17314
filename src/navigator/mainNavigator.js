@@ -9,7 +9,6 @@ import BlankScreen016221Navigator from '../features/BlankScreen016221/navigator'
 import CopyOfBlankScreen016220Navigator from '../features/CopyOfBlankScreen016220/navigator';
 import CopyOfBlankScreen016219Navigator from '../features/CopyOfBlankScreen016219/navigator';
 import CopyOfBlankScreen016218Navigator from '../features/CopyOfBlankScreen016218/navigator';
-import CopyOfBlankScreen016217Navigator from '../features/CopyOfBlankScreen016217/navigator';
 
 /**
  * new navigators can be imported here
@@ -22,7 +21,6 @@ BlankScreen016221: { screen: BlankScreen016221Navigator },
 CopyOfBlankScreen016220: { screen: CopyOfBlankScreen016220Navigator },
 CopyOfBlankScreen016219: { screen: CopyOfBlankScreen016219Navigator },
 CopyOfBlankScreen016218: { screen: CopyOfBlankScreen016218Navigator },
-CopyOfBlankScreen016217: { screen: CopyOfBlankScreen016217Navigator },
 
     /** new navigators can be added here */
     SplashScreen: {
